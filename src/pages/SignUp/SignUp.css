@@ -1,0 +1,130 @@
+.signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+
+.signUp__heading h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0866ff;
+}
+
+.signUp__form {
+  max-width: 28rem;
+  background-color: #fff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.signUp__form--text {
+  border-bottom: 1px solid #cdcccc;
+  padding-bottom: 0.8rem;
+  text-align: center;
+}
+
+.signUp__form--text h4 {
+  font-size: 1.5rem;
+}
+
+.signUp__form input[type="text"],
+.signUp__form input[type="email"],
+.signUp__form input[type="password"] {
+  border: 0.5px solid #cdcccc;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  margin-block: 0.3rem;
+  margin-right: 0.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.user {
+  margin-top: 0.8rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.birthdate > .flex {
+  gap: 0.5rem;
+}
+
+.birthdate > .flex > * {
+  flex-basis: 33%;
+}
+
+.birthdate,
+.gender {
+  margin: 0.5rem 0;
+}
+.birthdate label,
+.gender label {
+  color: #6c6c6c;
+}
+
+.birthdate select {
+  border-radius: 5px;
+  border: 1px solid #cdcccc;
+  padding: 0.5rem;
+}
+
+.gender > .flex {
+  gap: 1rem;
+}
+
+.gender > .flex > * {
+  flex-basis: 33%;
+  border: 1px solid #cdcccc;
+}
+
+.gender label {
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.gender label > * {
+  color: #000;
+}
+
+.gender .flex label {
+  padding: 0.4rem;
+}
+
+.terms {
+  font-size: 12px;
+  color: #777777;
+  margin-block: 1rem;
+}
+
+.terms a {
+  color: #0866ff;
+}
+
+.signUp__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signUp__btn button {
+  background-color: rgb(14, 152, 17);
+  color: #fff;
+  max-width: fit-content;
+  padding-inline: 5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signUp__btn p {
+  margin-top: 0.3rem;
+  color: #0866ff;
+}
